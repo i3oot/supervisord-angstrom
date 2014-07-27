@@ -1,0 +1,4 @@
+dist/
+supervisord/CONTROL/control
+*~
+
