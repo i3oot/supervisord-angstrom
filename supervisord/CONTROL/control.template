@@ -1,0 +1,10 @@
+Package: supervisord
+Version: 3.0-%DATE%
+Description: A client/server system that allows its users to control a number of processes on UNIX-like operating systems.
+Architecture: armv7a
+Section: extra
+Priority: optional
+Maintainer: i3oot <tobias.waller@googlemail.com>
+Homepage: http://supervisord.org
+Depends: python python-pip python-setuptools
+Source: http://supervisord.org

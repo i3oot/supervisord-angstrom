@@ -1,0 +1,2 @@
+#!/bin/sh
+pip install supervisor==3.0
