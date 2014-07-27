@@ -1,0 +1,11 @@
+[Unit]
+Description=Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
+
+[Service]
+Type=oneshot
+ExecStart=supervisord
+ExecStop=supervisorctl shutdown
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
