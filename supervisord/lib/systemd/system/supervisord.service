@@ -3,8 +3,8 @@ Description=Supervisor is a client/server system that allows its users to monito
 
 [Service]
 Type=oneshot
-ExecStart=supervisord
-ExecStop=supervisorctl shutdown
+ExecStart=/usr/bin/supervisord
+ExecStop=/usr/bin/supervisorctl shutdown
 RemainAfterExit=yes
 
 [Install]

@@ -1,4 +1,5 @@
 #!/bin/sh
 pip install supervisor==3.0
-update-rc.d supervisord defaults
-/etc/init.d/supervisord start
+
+systemctl enable supervisord
+systemctl start supervisord
