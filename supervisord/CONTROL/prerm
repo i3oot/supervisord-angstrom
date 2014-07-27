@@ -1,2 +1,4 @@
 #!/bin/sh
-pip uninstall supervisor
+systemctl stop supervisord
+systemctl disable supervisord
+pip uninstall -y supervisor
