@@ -6,5 +6,5 @@ Section: extra
 Priority: optional
 Maintainer: i3oot <tobias.waller@googlemail.com>
 Homepage: http://supervisord.org
-Depends: python python-pip python-setuptools
+Depends: python, python-pip, python-setuptools
 Source: http://supervisord.org
